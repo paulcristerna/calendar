@@ -1,0 +1,144 @@
+/* 
+
+colors:
+gray: #EEE;
+dark gray: #BDBDBD;
+blue: #31B0D5;
+
+*/
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background: #EEE;
+}
+
+/* header */
+
+.header-container
+{
+	background-color: #FFF;	
+	box-shadow: 0 1px 3px #BDBDBD;
+}
+
+.header-profile-container
+{
+	height: 80px;
+	line-height: 70px;
+}
+
+.header-profile-photo{
+	box-shadow: 0 1px 3px #BDBDBD;
+}
+
+.header-profile-name
+{
+	width: 92px;
+}
+
+.header-control-profile
+{
+	border: none;
+}
+
+.header-name-month
+{
+	width: 163px;
+}
+
+.list-days-container
+{
+	height: 25px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+/* calendar */
+
+.loading-calendar-container
+{
+	background: #FFF;
+	border: 1px solid #BDBDBD;
+	height: 450px;
+	line-height: 450px;
+}
+
+.days-container
+{
+	border-color: #BDBDBD;
+	border-style: solid;
+	border-width: 0 0 1px 1px;
+	min-height: 750px;
+	display: none;
+}
+
+.day-container-this-month
+{
+	border-color: #BDBDBD;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	background: #FFF;
+	padding: 13px;
+	height: 150px;
+}
+
+.day-container-other-month, 
+.photo-day-container
+{
+	border-color: #BDBDBD;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	background: none;
+	padding: 13px;
+	height: 150px;
+}
+
+.photo-day-container
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 1px 1px #000;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.number-day-container
+{
+	text-shadow: 1px 1px #000;
+}
+
+.today-container
+{
+	border-color: #BDBDBD;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	background: #31B0D5;
+	color: #FFF;
+	padding: 13px;
+	height: 150px;
+}
+
+.number-photos-day-container
+{
+	padding-top: 105px;
+}
+
+/* login */
+
+.login-error
+{
+	display: none;
+}
+
+/* grid */
+
+.col-cm-1
+{
+ 	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: 14.28571428%;
+}

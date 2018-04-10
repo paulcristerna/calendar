@@ -1,0 +1,26 @@
+<!-- controles del perfil -->
+<div class="btn-group hide" id="profile-controls">
+  <button type="button" class="btn btn-default dropdown-toggle header-control-profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="img/no_photo.png" alt="perfil" class="img-circle header-profile-photo" id="header-profile-photo" height="45px" width="45px">  
+    <label class="header-profile-name" id="header-profile-name"></label>  
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#" id="header-profile-link"><label><span class="glyphicon glyphicon-calendar"></span> | Calendario</label></a></li>
+    <li><a href="#"><label><span class="glyphicon glyphicon-ok-sign"></span> | Seguidores</label></a></li>
+    <li><a href="#"><label><span class="glyphicon glyphicon-user"></span> | Cuenta</label></a></li>
+    <li><a href="#"><label><span class="glyphicon glyphicon-cog"></span> | Configuración</label></a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#" id="logout"><label class="text-danger"><span class="glyphicon glyphicon-log-out"></span> | Salir</label></a></li>
+  </ul>
+</div><!-- /.btn-group -->
+
+<!-- notificaciones -->
+<div class="btn-group hide" id="profile-notifications">
+  <button type="button" class="btn btn-info dropdown-toggle header-control-profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">				     
+    <span class="glyphicon glyphicon-bell"></span> 0
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#"><label><span class="glyphicon glyphicon-bell"></span> | Aún no tienes notificaciones.</label></a></li>
+  </ul>
+</div><!-- /.btn-group -->
